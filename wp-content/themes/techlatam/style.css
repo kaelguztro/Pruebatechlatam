@@ -1,12 +1,137 @@
 @import './css/bootstrap.min.css';
+@font-face {
+  font-family: 'play';
+  src: url("fonts/playfairDisplay-Regular.ttf");
+  font-family: 'ubuntu';
+  src: url("fonts/Ubuntu-Regular.ttf");
+  @font-face;
+}
+* {
+  font-family: 'play';
+}
 #menu-principal {
   background-color: #fff !important;
   display: flex;
   padding-top: 50px;
+  font-family: 'play';
 }
 #navbarNav {
   justify-content: flex-end;
 }
 #navbarNav >ul >li {
-  margin-right: 80px;
+  margin-right: 40px;
+}
+#pie-pagina {
+  display: flex;
+  padding: 40px;
+  background-color: #f3f3f3;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#enlace-pie-pagina {
+  justify-content: flex-start;
+  width: 50%;
+}
+#enlace-pie-pagina >ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+#enlace-pie-pagina >ul >li {
+  float: left;
+  margin-right: 15px;
+}
+#enlace-pie-pagina >ul >li >a {
+  color: #000;
+}
+#enlace-redes-sociales {
+  justify-content: flex-end;
+  width: 40%;
+  display: flex;
+  margin-left: 10%;
+}
+#enlace-redes-sociales >ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+#enlace-redes-sociales >ul >li {
+  list-style: none;
+  display: flex;
+  float: left;
+  margin-right: 15px;
+}
+#enlace-redes-sociales >ul >li >a {
+  color: #575757;
+}
+#letra-photodiary {
+  font-family: 'ubuntu';
+  color: #d0d0c6;
+  font-size: 13px;
+}
+#letra-perfect-weekend {
+  color: #626262;
+  font-size: 30px;
+}
+#letra-parrafo {
+  color: #7d7d7d;
+  font-size: 15px;
+}
+#letra-leave {
+  font-family: 'ubuntu';
+  color: #d0d0c6;
+  font-size: 13px;
+  margin-top: 40px;
+}
+#div-photografy {
+  margin-top: 30px;
+  padding: 70px;
+}
+#div-lifestyle {
+  margin-top: 5px;
+  padding: 70px;
+}
+#letra-lifestyle {
+  font-family: 'ubuntu';
+  color: #d0d0c6;
+  font-size: 13px;
+  margin-top: 40px;
+}
+#letra-bajo-lifestyle {
+  color: #686868;
+  font-size: 30px;
+}
+#letra-photodiary {
+  font-family: 'ubuntu';
+  color: #d0d0c6;
+  font-size: 13px;
+  margin-top: 40px;
+}
+#letra-bajo-photodiary {
+  color: #686868;
+  font-size: 30px;
+}
+#cuadro-email {
+  background-color: #f0f0f0;
+  margin-top: 5px;
+  padding: 70px;
+}
+#div-email {
+  padding: 20px;
+}
+#letra-div-email {
+  color: #686868;
+  font-size: 30px;
+  text-align: center;
+}
+#letra-parrafo {
+  font-family: 'ubuntu';
+  color: #b7b7b7;
+  font-size: 13px;
+}
+#letra-parrafo-email {
+  font-family: 'ubuntu';
+  color: #b7b7b7;
+  font-size: 13px;
+  text-align: center;
 }
