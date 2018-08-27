@@ -62,11 +62,50 @@
 
                 <div class="row" id="div-email">
                     <div class="col-12 col-md-12" id="cuadro-email">
-                        <p id="letra-div-email">
+                        <div id="letra-div-email">
                             Sign up for our newsletter!
+                        </div>
+                        <div id="contenedor-email">
+                            <div id="cont-email-img">
+                               <div id="cont-email">
+                                    <input type="email" placeholder="Enter a valid email address" id="email">
+                               </div>   
+                               <div id="cont-img">
+                                    <img src="<?php echo THEMEROOT; ?>/img/flecha.jpg" alt="">
+                               </div>
+                            </div>
+                        
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="row">
+                <div class="col-12 col-md-6" id="div-lifestyle">
+                    <img src="<?php echo THEMEROOT; ?>/img/sombrero.jpg" alt="">
+                        <h4 id="letra-photodiary">LIFESTYLE</h4>
+                        <h1 id="letra-bajo-photodiary">Top 10 song for running</h1>
+                        <p id="letra-parrafo">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque illum illo porro error molestiae. Corrupti temporibus obcaecati provident ullam deserunt facere eligendi nulla, unde quam placeat officia ex asperiores vitae?
                         </p>
-                        <p id="letra-parrafo-email">Enter a valid email address</p>
-                        <hr>
+                </div>
+                <div class="col-12 col-md-6" id="div-lifestyle">
+                    <img src="<?php echo THEMEROOT; ?>/img/calle.jpg" alt="">
+                        <h4 id="letra-photodiary">LIFESTYLE</h4>
+                        <h1 id="letra-bajo-photodiary">Cold winter days</h1>
+                        <p id="letra-parrafo">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, voluptates voluptas totam eius consectetur enim, inventore molestiae dignissimos maxime, et fugiat molestias odit laudantium minima.
+                        </p>
+                </div>
+            </div>
+
+
+            <div class="row" id="">
+                    <div class="col-12 col-md-12" id="cont-load-more">
+                        <button id="cuadro-leer-mas">
+                            Load more
+                        </button>
                     </div>
                 </div>
             
