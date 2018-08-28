@@ -2,9 +2,10 @@
 @font-face {
   font-family: 'play';
   src: url("fonts/playfairDisplay-Regular.ttf");
+}
+@font-face {
   font-family: 'ubuntu';
   src: url("fonts/Ubuntu-Regular.ttf");
-  @font-face;
 }
 * {
   font-family: 'play';
@@ -180,4 +181,100 @@
   display: flex;
   justify-content: center;
   margin-bottom: 75px;
+}
+#letra-photodiary-pag2 {
+  font-family: 'ubuntu' !important;
+  color: #b2b3b0;
+  font-size: 10px;
+  margin-top: 40px;
+  margin-top: 50px;
+}
+#letra-parrafo-pag2 {
+  font-family: 'ubuntu' !important;
+  color: #5e5e5e;
+  font-size: 13px;
+}
+#img-mantilla {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 60px;
+}
+#img-montana {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 60px;
+}
+#img-falda {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 60px;
+}
+#letra-parrafo-cursivo {
+  font-size: 13px;
+  padding: 0px 200px 0px 200px;
+  margin-top: 40px;
+}
+#letra-parrafo2-pag2 {
+  color: #5e5e5e;
+  font-size: 15px;
+  padding: 0px 160px 0px 160px;
+  margin-top: 40px;
+}
+#redes-pag2 {
+  justify-content: flex-end;
+  width: 40%;
+  display: flex;
+  margin-left: 50%;
+  margin-top: 70px;
+}
+#redes-pag2 >ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+#redes-pag2 >ul >li {
+  list-style: none;
+  display: flex;
+  float: left;
+  margin-right: 15px;
+  color: #b2b3b0;
+  font-family: 'ubuntu' !important;
+}
+#redes-pag2 >ul >li >a {
+  color: #b2b3b0;
+}
+#contenedor-imgs {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.imgsss {
+  width: 33.33%;
+  padding: 10px;
+}
+.imgss {
+  width: 100%;
+}
+#cuadro-you-may {
+  background-color: #f7f7f7;
+  margin-top: 100px;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.style-h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #5a5a5a;
+}
+#you-may {
+  color: #5a5a5a;
+}
+#parrafo-segpag {
+  padding: 60px;
 }
